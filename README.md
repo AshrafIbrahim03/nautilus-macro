@@ -38,11 +38,12 @@ Each rule has a name and an expression separated by an equals sign '=' and ends 
 
 A symbol encapsulates the idea of non terminating and terminating expressions in the Nautilus paper linked above. A non terminating expression is any valid Rust identifier, just a rule name. A terminating expression is any Rust literal. As of right now, when a rule is made, there are no spaces between symbols even though the macro looks that way. You can also define an expression using literal syntax, which is just wrapping the expression in `""`.
 # Bugs that need fixing
-
 - [ ] Nonalphanumeric symbols register as a syntax error where a semicolon is expected, but still compiles normally
+
 # Planned Features
 - [ ] Usage of any length non alphanumeric sequences between rule names
 - [ ] Defining separators at a grammar level and the ability to define separators at a rule level
 - [ ] Include byte strings and C strings
 - [ ] Create a NautilusGrammar object that exposes some functions that return the slice needed for NautilusContext::with_rules and some other functions that allow a user to see exactly what their grammar looks like
+- [ ] Create an examples folder
 
