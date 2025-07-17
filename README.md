@@ -44,4 +44,5 @@ A symbol encapsulates the idea of non terminating and terminating expressions in
 - [ ] Usage of any length non alphanumeric sequences between rule names
 - [ ] Defining separators at a grammar level and the ability to define separators at a rule level
 - [ ] Include byte strings and C strings
+- [ ] Create a NautilusGrammar object that exposes some functions that return the slice needed for NautilusContext::with_rules and some other functions that allow a user to see exactly what their grammar looks like
 
