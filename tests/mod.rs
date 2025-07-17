@@ -11,3 +11,6 @@ fn is_accepted_by_nautilus_context() {
     let ctx = NautilusContext::with_rules(10, nautilus_grammar.as_slice())
         .expect("Could not build simple NautilusContext from macro");
 }
+
+#[test]
+fn generates_correct_values() {}
