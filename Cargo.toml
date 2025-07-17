@@ -1,0 +1,8 @@
+[package]
+name = "nautilus-macro"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libafl = { version = "0.15.2", features = ["nautilus"] }
+nautilus-gen = { path = "./nautilus-gen" }
